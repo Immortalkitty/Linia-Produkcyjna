@@ -108,6 +108,7 @@ namespace LiniaProdukcyjna
             // 
             velocityTrackBar.Location = new Point(381, 211);
             velocityTrackBar.Maximum = 100;
+            velocityTrackBar.Minimum = 10;
             velocityTrackBar.Name = "velocityTrackBar";
             velocityTrackBar.Size = new Size(104, 45);
             velocityTrackBar.SmallChange = 10;

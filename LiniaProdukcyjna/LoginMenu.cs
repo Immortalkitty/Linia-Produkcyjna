@@ -8,24 +8,22 @@ namespace LiniaProdukcyjna
         public LoginMenu()
 
         {
-            users.Add( new User("Kate", "sharp"));
-            users.Add(new User("Alex", "c"));
+            Users.Add( new User("Kate", "sharp"));
+            Users.Add(new User("Alex", "c"));
             InitializeComponent();
         }
 
         private void loginTextBox_TextChanged(object sender, EventArgs e)
         {
-
             //przycisk logowania dostêpny tylko gdy coœ jest wpisane w polu "login"
             if (loginTextBox.Text.Equals("")) loginButton.Enabled = false;
             else loginButton.Enabled = true;
-
 
         }
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            foreach (User u in User.Users)
+            foreach (User u in Users)
             {
                 if (u.login.Equals(loginTextBox.Text))
                 {

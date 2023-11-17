@@ -25,7 +25,6 @@ namespace LiniaProdukcyjna
 
         }
 
-
         private void timeToConfirmTimer_Tick(object sender, EventArgs e)
         {
             timeLeftToConfirmCounter--;
@@ -48,7 +47,6 @@ namespace LiniaProdukcyjna
             }
 
         }
-
         private void iAmAliveButton_Click(object sender, EventArgs e)
         {
             this.Close();

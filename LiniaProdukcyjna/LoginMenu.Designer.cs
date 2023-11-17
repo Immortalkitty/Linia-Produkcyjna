@@ -4,7 +4,7 @@
     {
         /// <summary>
         ///  Required designer variable.\
-        private List<User> users = new List<User>();
+        private static List<User> Users = new List<User>();
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 

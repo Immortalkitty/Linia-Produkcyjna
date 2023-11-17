@@ -30,12 +30,12 @@ namespace LiniaProdukcyjna
             timerCount++;
             if (timerCount >= 60)
             {
-                Point windowLocation=this.Location;
-                AreUAliveForm areualivewindow= new AreUAliveForm(this);
+                Point windowLocation = this.Location;
+                AreUAliveForm areualivewindow = new AreUAliveForm(this);
                 areualivewindow.Show();
 
                 areualivewindow.Location = windowLocation;
-                
+
                 timerCount = 0;
             }
 
@@ -87,9 +87,6 @@ namespace LiniaProdukcyjna
                 }
 
             }
-
-
-
 
         }
 
@@ -212,12 +209,12 @@ namespace LiniaProdukcyjna
                     timeForFixingLabel.Visible = true;
                     timeForFixingLabel.Text = "Czas na naprawienie awarii: " + malfunctionTimeCounter;
                 }
-                if(malfunctionTimeCounter==-2)
+                if (malfunctionTimeCounter == -2)
                 {
                     MessageBox.Show("Linia produkcyjna uległa zniszczeniu. Program zakończy swoje działanie po wciśnięciu 'OK'.");
                     this.Close();
                 }
-               
+
                 malfunctionTimeCounter--;
 
             }
