@@ -17,6 +17,6 @@ Temperature control change is possible in the range of 150-300ºC. By default, t
 Each fan has its own checkbox, which can be in true state - the fan is on or false - the fan is off. Pressing it changes its state to the opposite. Fans in the program increase the energy consumption of the line, and can be activated/deactivated by random jittering of the line.
 The user is required to confirm activity every 60 seconds.
 
-| ![Main panel](ReadmeImages/MainPanel.png)| ![Malfunction panel](ReadmeImages/Malfunction.png) |
+| ![Main panel](MainPanel.png)| ![Malfunction panel](Malfunction.png) |
 |:-----------------------:|:-----------------------:|
 | Main panel        | Panel with malfunction         |
